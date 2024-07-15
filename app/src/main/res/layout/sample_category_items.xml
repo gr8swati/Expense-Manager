@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="8dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/categoryImage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:background="@drawable/category_bg"
+        android:padding="8dp"
+        android:src="@drawable/statss"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/categoryText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Business"
+        app:layout_constraintTop_toBottomOf="@+id/categoryImage"
+        app:layout_constraintEnd_toEndOf="@+id/categoryImage"
+        app:layout_constraintStart_toStartOf="@+id/categoryImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
