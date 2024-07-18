@@ -16,5 +16,7 @@
     <color name="brown">#E693B0</color>
 
     <color name="red">#F44336</color>
-    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="my_dark_primary">#BFB6D1</color>
+    <color name="my_light_primary">#BFB6D1</color>
 </resources>
